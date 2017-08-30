@@ -1,0 +1,137 @@
+#login_div{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 16px;
+    background: #F7F7F7;
+}
+#login_div h1{
+    background: #43D1AF;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+#login_div input[type="text"],#login_div input[type="password"]{
+    outline: none;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+#login_div input[type="submit"]{
+    width: 100%;
+    padding: 3%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+#btn-group button {
+    background-color: #4CAF50;
+    border: 1px solid green;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+}
+#btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#btn-group button:not(:last-child) {
+    border-right: none;
+}
+#btn-group button:hover {
+    background-color: #3e8e41;
+}
+#btn-group {
+
+    display: flex;
+    justify-content: center;
+}
+#div_tab{
+    max-width: 400px;
+    margin: 1% auto;
+    padding: 16px;
+    background: #F7F7F7;
+    height:60%;
+    overflow-y: scroll;
+}
+#tabela1{
+    width:300px;
+
+
+
+}
+#th2{
+    width:150px;
+}
+#th3{
+    width:30px;
+}
+#th1{
+    width:30px;
+}
+#tabela1 input[type="text"]{
+     width:30px;
+
+ }
+#tabela1 input[name="ime"]{
+    width:130px;
+
+}
+#tabela1 tbody tr:nth-of-type(even){
+    background:rgba(255,255,136,0.5);
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 3%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+body {
+    background-image: url("../back.jpg");
+}
+button > a {
+    text-decoration: none;
+}
+
+button > a:visited {
+   color: white;
+}
+#div_tab1{
+   max-width: 400px;
+     margin: 1% auto;
+     padding: 16px;
+     background: #F7F7F7;
+     height:10%;
+
+ }
+#div_tab2{
+    max-width: 1000px;
+    margin: 1% auto;
+    padding: 16px;
+    background: #F7F7F7;
+    height:60%;
+    overflow-y: scroll;
+
+}
+#tabela2 tbody tr:nth-of-type(even) {
+    background: rgba(255, 255, 136, 0.5);
+}
